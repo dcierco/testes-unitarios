@@ -28,6 +28,23 @@ public class LocacaoService {
 	}
 
 	public static void main(String[] args) {
-		
+		//cenário  ou pré-condição
+		LocacaoService service = new LocacaoService();
+		Usuario usuario = new Usuario("Usuario 1");
+		Filme filme = new Filme("Filme 1", 1,  5.0);
+
+		//ação
+		Locacao locacao = service.alugarFilme(usuario, filme);
+
+		//verificação
+		System.out.println(locacao.getValor() == 5.0);
+		System.out.println(DataUtils.isMesmaData(locacao.getDataLocacao(), new Date()));
+		System.out.println(DataUtils.isMesmaData(locacao.getDataRetorno(), DataUtils.obterDataComDiferencaDias(1)));
+
+		//F = Fast;
+		//I = Independent;
+		//R = Repeatable;
+		//S = Self-Veryfying
+		//T = Timely
 	}
 }
