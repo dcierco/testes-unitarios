@@ -48,6 +48,11 @@ public class LocacaoServiceTest {
         assertSame(usuario, usuario);
     }
 
+    @Test
+    public void comparaStrings(){
+        assertEquals(usuario.getNome(), "Usuario 1");
+    }
+
     
 
 
