@@ -12,18 +12,18 @@ Tarefas liberadas dia 29/01:
 * Organizar os testes em pastas mais coerente a sua finalidade;
 * Utilizar os recursos do assert, para as validações dos métodos de teste;
 * Criar uma Classe de teste, dentro do escopo de testes, chamada AssertTest, com os exemplos de:
-	* Assert.assertTrue() validando true e observando seu comportamento;
-	* Assert.assertTrue() validando false e observando seu comportamento;
-	* Assert.assertFalse() validando true e observando seu comportamento;
-	* Assert.assertFalse() validando false e observando seu comportamento;
-	* Assert.assertEquals() validando dois inteiros primitivos e observando seu comportamento;
-	* Assert.assertEquals() validando um inteiro primitivo e um objeto do tipo Integer e observando seu comportamento;
-	* Assert.assertEquals() validando dois objetos do tipo Integer e observando seu comportamento;
-	* Assert.assertEquals() validando dois Strings e observando seu comportamento;
-	* Assert.assertEquals() validando dois valores primitivos do tipo double e observando seu comportamento;
-	* Assert.assertSame() validando o mesmo objeto do tipo Integer e observando seu comportamento;
-	* Assert.assertSame() validando dois objetos do tipo Integer e observando seu comportamento;
-	* Escolher um assert para validar um objeto nulo e observando seu comportamento;
+	* Assert.assertTrue() validando true e observando seu comportamento; // Concluido
+	* Assert.assertTrue() validando false e observando seu comportamento; // Concluido
+	* Assert.assertFalse() validando true e observando seu comportamento; // Concluido
+	* Assert.assertFalse() validando false e observando seu comportamento; // Concluido 
+	* Assert.assertEquals() validando dois inteiros primitivos e observando seu comportamento; // Concluido
+	* Assert.assertEquals() validando um inteiro primitivo e um objeto do tipo Integer e observando seu comportamento; // Concluido
+	* Assert.assertEquals() validando dois objetos do tipo Integer e observando seu comportamento; // Concluido
+	* Assert.assertEquals() validando dois Strings e observando seu comportamento; // Concluido
+	* Assert.assertEquals() validando dois valores primitivos do tipo double e observando seu comportamento; // Concluido
+	* Assert.assertSame() validando o mesmo objeto do tipo Integer e observando seu comportamento; // Concluido
+	* Assert.assertSame() validando dois objetos do tipo Integer e observando seu comportamento; // Concluido
+	* Escolher um assert para validar um objeto nulo e observando seu comportamento; // Concluido
 	* Validar todos os exemplos anteriores com suas variações negativas AssertNot... e observando seu comportamento;
 	
 * Organizar os testes do terceiro passo para usar o métodos mais coerentes do Assert.assertThat + CoreMatchers;
